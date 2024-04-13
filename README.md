@@ -1,8 +1,11 @@
 # memcached-operator
-// TODO(user): Add simple overview of use/purpose
+Following the tutorial at https://sdk.operatorframework.io/docs/building-operators/golang/tutorial/
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+In addition to content of the tutorial linked, this repo also:
+- handles deployment already exists error
+- better handle "can't update becuase it's already changed error"
+- handles containerPort change
 
 ## Getting Started
 
